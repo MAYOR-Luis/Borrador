@@ -1,0 +1,65 @@
+body{
+    color: red;
+}
+.theme-thime{
+    background-color: rgb(221, 210, 210);
+    color: black;
+}
+.theme-dark{
+    background-color: black;
+    color: white;
+}
+
+.container{
+    background-color: #f9f4f4;
+    padding: .5rem;
+    border-radius: 1rem;
+    display: inline-block;
+    margin-top: 1rem ;
+}
+a{
+    color: inherit;
+}
+a:hover{
+    color: yellow;
+}
+.content-image{
+    text-align: center;
+}
+.image{
+    display: inline-block;
+    width: 250px;
+}
+
+.card{
+    background-color: #ccc;
+    border: 3px solid blue;
+    width: 400px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    .image{
+        display: block;
+        margin-left:auto ;
+        margin-right:auto ;
+        border-radius: 1rem;
+    }
+    a{
+        display: block;
+        margin-bottom: 1rem;
+        text-decoration: none;
+    }
+
+}
+.borde-practic{
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    padding: 1rem;
+    margin-left: 23%;
+
+    border-width: 5px 10px 15px 20px;
+    border-style: solid dashed dotted double;
+    border-color: green purple peru aqua;
+    direction: rtl;
+}
